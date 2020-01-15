@@ -10,10 +10,6 @@ Built with:
 - **React**
 - **Semantic UI**
 
-For API endpoints, see [here](https://github.com/adriantelles/django-Voting-app/blob/master/API.md).
-
-For React readme, see [here](https://github.com/adriantelles/django-Voting-app/blob/master/voting_app/frontend/README.md).
-
 ---
 
 For Local Setup:
@@ -64,7 +60,3 @@ Tests:
 
 - polls/tests - for DRF tests
 - frontend/src/tests - for React tests
-
-Issues:
-
-- I used windows to build this and was getting Windows specific error on new twitter user creation. Right before redirection to React app I was receiving the error message, saying: "**ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it**". New user gets added though, and later login attempts go smooth. I thought this issue is coming because the smtp servers weren't set on local env. I also disabled the Email verification for users in django-allauth so that the application won't try to send any verification emails.
